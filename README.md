@@ -11,7 +11,7 @@ npm install git-csv
 ```javascript
 const gitCSV = require('git-csv');
 
-const rows = gitCSV({
+const rows = await gitCSV({
     url: 'https://github.com/org/repo/blob/master/folder/example.csv'
 });
 // rows is like [ [ 5, 389, 'HARVARD UNIV', 'Ames Hall', true ], ...]
@@ -21,7 +21,7 @@ const rows = gitCSV({
 ```javascript
 const gitCSV = require('git-csv');
 
-const rows = gitCSV({
+const rows = await gitCSV({
     accessToken: '12ye7taslasudfbhkyjasvfjysdce621tcu6ertc12y5r',
     url: https://github.com/org/repo/blob/master/folder/example.csv
 });
@@ -31,7 +31,7 @@ const rows = gitCSV({
 ```javascript
 const gitCSV = require('git-csv');
 
-const rows = gitCSV({
+const rows = await gitCSV({
     header: true,
     url: https://github.com/org/repo/blob/master/folder/example.csv
 });
