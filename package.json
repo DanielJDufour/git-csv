@@ -1,0 +1,33 @@
+{
+  "name": "git-csv",
+  "version": "0.0.0",
+  "description": "The Easiest Way to Get the Rows from a CSV on Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "source .env && GITHUB_PERSONAL_ACCESS_TOKEN=$GITHUB_PERSONAL_ACCESS_TOKEN ava --verbose test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/git-csv.git"
+  },
+  "keywords": [
+    "csv",
+    "fetch",
+    "git",
+    "github"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/git-csv/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/git-csv#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "git-url-parse": "^11.1.2",
+    "papaparse": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^3.11.1"
+  }
+}
