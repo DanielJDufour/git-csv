@@ -3,7 +3,7 @@ The Easiest Way to Get the Rows from a CSV on Github
 
 # usage
 ## Getting a CSV from a Public Repo
-```
+```javascript
 const gitCSV = require('git-csv');
 
 const rows = gitCSV({
@@ -13,7 +13,7 @@ const rows = gitCSV({
 ```
 
 ## Getting a CSV from a Private Repo
-```
+```javascript
 const gitCSV = require('git-csv');
 
 const rows = gitCSV({
@@ -23,7 +23,7 @@ const rows = gitCSV({
 ```
 
 ## Getting a CSV with a Header
-```
+```javascript
 const gitCSV = require('git-csv');
 
 const rows = gitCSV({
